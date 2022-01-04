@@ -75,7 +75,7 @@ class Header extends React.PureComponent {
         </button>
         <div className="collapse" id="navbar-collapse">
           <a
-            href="https://github.com/chanceDira/Final-Year-Project"
+            href="https://github.com/chanceDira/kigali-dex"
             className="btn btn-primary item"
             target="_blank"
             rel="noopener noreferrer">
