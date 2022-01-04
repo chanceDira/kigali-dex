@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.HydroSDK-toggleButton {
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+        outline: none;
+        background-color: #535ec3 !important;
+        border-color: #4954ac !important;
+        color: $white !important;
+        box-shadow: none;
+    }
+}
+
+#k-header {
+    color: rgb(253, 234, 171);
+    font-weight: bold;
+    font-family: Noto serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #535ec3;
+        z-index: 1;
+        .item {
+            margin: 4px 0;
+            border: none;
+        }
+        .HydroSDK-toggleButton {
+            border: none;
+        }
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .dropdown-toggle::after {
+        margin-left: 12px;
+    }
+    .item {
+        margin-right: 12px;
+    }
+    .collapse-toggle {
+        display: none;
+    }
+    .collapse,
+    .collapse:not(.show) {
+        display: flex;
+    }
+}

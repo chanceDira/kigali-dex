@@ -1,0 +1,10 @@
+vendor
+.idea
+*.sqlite
+*.db
+
+build
+sqlite3.db
+.Dockerfile.local
+bin
+main

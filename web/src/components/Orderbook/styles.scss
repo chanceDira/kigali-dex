@@ -1,0 +1,15 @@
+.orderbook {
+    .header,
+    .status {
+        height: 40px;
+        line-height: 40px;
+    }
+    .asks,
+    .bids {
+        min-height: 120px;
+    }
+    .ask,
+    .bid {
+        min-height: 24px;
+    }
+}

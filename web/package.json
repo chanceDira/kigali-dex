@@ -1,0 +1,48 @@
+{
+  "homepage": "https://chanceDira.github.io/kigali-dex/",
+  "name": "kigali-dex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@gongddex/hydro-sdk-wallet": "0.0.57",
+    "@wangleiddex/hydro-sdk-charts": "0.1.6",
+    "axios": "^0.18.0",
+    "bignumber.js": "^8.1.1",
+    "immutable": "^4.0.0-rc.12",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "perfect-scrollbar": "^1.4.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-responsive": "^6.1.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "eslint": "./node_modules/.bin/eslint src"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.12.0",
+    "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^3.2.3"
+  }
+}
