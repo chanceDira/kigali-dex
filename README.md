@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-The easiest way to launch the scaffold dex is via `docker` and `docker-compose`.
+The easiest way to launch Kigali-dex is via `docker` and `docker-compose`.
 
 If you don't already have them installed, you can follow [this link](https://docs.docker.com/compose/install/) to install them (free).
 
